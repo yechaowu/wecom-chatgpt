@@ -28,6 +28,7 @@
 
 - docker 端口 `-p 6364:6364`
 - 需要挂载的 `-v /你自己创建的文件夹/config:/src/config`
+- 例子：docker run -d -p 6364:6364 -v /yechaowu/config:/src/config --privileged=true 镜像名
 
 - dokerhub [地址](https://hub.docker.com/r/yummys/chatgpt-wecom)
   在本地目录下新建一个 config 文件夹在文件夹下新建 data.yml 文件,填写以下内容:
